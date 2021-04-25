@@ -1,5 +1,6 @@
 ---
 title: Write yourself a git
+layout: post
 categories:
 - tutorial
 toc: true
