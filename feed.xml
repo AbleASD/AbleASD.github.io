@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-24T22:07:23-05:00</updated><id>/feed.xml</id><title type="html">AbleASD’s blog</title><subtitle>便捷实用的Jupyter博客网站。此外，还支持 Word 文档，以及 Markdown。</subtitle><entry><title type="html">Fastpages汉化版使用说明</title><link href="/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="Fastpages汉化版使用说明" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter&lt;/a&gt; ，找到下面这个蓝色的字并点击，&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-04-24T22:17:58-05:00</updated><id>/blog/feed.xml</id><title type="html">AbleASD’s blog</title><subtitle>便捷实用的Jupyter博客网站。此外，还支持 Word 文档，以及 Markdown。</subtitle><entry><title type="html">Fastpages汉化版使用说明</title><link href="/blog/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="Fastpages汉化版使用说明" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/blog/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter&lt;/a&gt; ，找到下面这个蓝色的字并点击，&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;在自己的账户下生成一个仓库（仓库名不能使用&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image2.png&quot; alt=&quot;&quot; /&gt;），用于运行网页。&lt;/p&gt;
+&lt;p&gt;在自己的账户下生成一个仓库（仓库名不能使用&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image2.png&quot; alt=&quot;&quot; /&gt;），用于运行网页。&lt;/p&gt;
 
 &lt;p&gt;2 稍等片刻（约30秒），你的github邮箱会收到一封邮件，指导你接下来的步骤。由于邮件是英文版，请参考README文档。&lt;/p&gt;
 
 &lt;p&gt;操作过程截图：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image3.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image3.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image6.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image6.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;点击Add key后需要输入github密码。&lt;/p&gt;
 
 &lt;p&gt;3查看Actions，绿色对勾表示初始化完成。（这一步没有意义）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image7.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image7.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;4在&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/settings&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/settings&lt;/a&gt; settings页面下滑找到&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image8.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image8.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;选择master branch，等待&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/actions&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/actions&lt;/a&gt; 显示成功。&lt;/p&gt;
 
 &lt;p&gt;5如果运行正常，会生成一个新的branch，名为gh-pages。需要将网页改至该路径。（若干没有，可以先进行后续操作。稍后在回来做这一步）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image9.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image9.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;至此，网站已经可以显示了。&lt;/p&gt;
 
@@ -40,11 +40,11 @@
 
 &lt;p&gt;相关修改参考见截图&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;若要修改网页标题，则修改&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image11.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image11.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;若要修改网页内容，则修改index.html文件。&lt;/p&gt;
 
@@ -52,7 +52,7 @@
 
 &lt;p&gt;7 如果没有做第5步，现在做。做完后网站正常显示。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image12.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image12.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;8 上传Jupyter文件&lt;/p&gt;
 
@@ -60,9 +60,9 @@
 
 &lt;p&gt;但是也有要求，第一个单元格内要以Markdown形式写：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image13.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image13.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image14.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image14.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;写完上传至_notebooks目录。如果是本地克隆文件夹，那么记得同步至github云端。&lt;/p&gt;
 
@@ -70,7 +70,7 @@
 
 &lt;p&gt;9 类似的，Markdown文件在_posts目录下，也能自动转换。&lt;/p&gt;
 
-&lt;p&gt;同样，有格式要求。（支持中文名）&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image15.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;同样，有格式要求。（支持中文名）&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image15.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;当然，少一点也行，这是一个例子：&lt;/p&gt;
 
@@ -102,11 +102,11 @@
 
 &lt;p&gt;2、若上传多个文档，其中一个报错，同批所有文档都不显示。故每次上传一个文档为佳，利于排查。每个文档生成网页的时间大约在2分钟左右。需要等待至Action成绿色√才表示完成，可以查看网页。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image16.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image16.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;3、可加载网页图片，但不能加载本地图片（文档中自带的图片）。例如下图方式添加的图片不能显示。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-14-fastpages汉化版使用说明/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，</summary></entry><entry><title type="html">欢迎（ms Word）</title><link href="/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html" rel="alternate" type="text/html" title="欢迎（ms Word）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/2020/04/13/%E6%AC%A2%E8%BF%8E(MS-Word)</id><content type="html" xml:base="/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html">&lt;p&gt;欢迎你&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-fastpages汉化版使用说明/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，</summary></entry><entry><title type="html">欢迎（ms Word）</title><link href="/blog/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html" rel="alternate" type="text/html" title="欢迎（ms Word）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/2020/04/13/%E6%AC%A2%E8%BF%8E(MS-Word)</id><content type="html" xml:base="/blog/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html">&lt;p&gt;欢迎你&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;欢迎你&lt;/strong&gt;&lt;/p&gt;
 
@@ -114,7 +114,7 @@
 
 &lt;p&gt;欢迎你&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-04-13-欢迎（MS-Word）/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">欢迎你</summary></entry><entry><title type="html">欢迎使用（Jupyter）</title><link href="/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8-Jupyter.html" rel="alternate" type="text/html" title="欢迎使用（Jupyter）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8(Jupyter)</id><content type="html" xml:base="/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8-Jupyter.html">&lt;!--
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-欢迎（MS-Word）/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">欢迎你</summary></entry><entry><title type="html">欢迎使用（Jupyter）</title><link href="/blog/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8-Jupyter.html" rel="alternate" type="text/html" title="欢迎使用（Jupyter）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8(Jupyter)</id><content type="html" xml:base="/blog/jupyter/%E4%B8%AD%E6%96%87/%E6%AC%A2%E8%BF%8E/2020/04/13/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8-Jupyter.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -168,9 +168,9 @@
 &lt;/div&gt;
     
 
-&lt;/div&gt;</content><author><name>EasonQYS</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/diagram.png" /><media:content medium="image" url="/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">欢迎使用Jekyll!（Markdown）</title><link href="/2020/04/12/%E4%BD%A0%E5%A5%BD.html" rel="alternate" type="text/html" title="欢迎使用Jekyll!（Markdown）" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>/2020/04/12/%E4%BD%A0%E5%A5%BD</id><content type="html" xml:base="/2020/04/12/%E4%BD%A0%E5%A5%BD.html">&lt;p&gt;&lt;strong&gt;Jekyll博客&lt;/strong&gt;将从这里开始.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>EasonQYS</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/images/diagram.png" /><media:content medium="image" url="/blog/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">欢迎使用Jekyll!（Markdown）</title><link href="/blog/2020/04/12/%E4%BD%A0%E5%A5%BD.html" rel="alternate" type="text/html" title="欢迎使用Jekyll!（Markdown）" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>/blog/2020/04/12/%E4%BD%A0%E5%A5%BD</id><content type="html" xml:base="/blog/2020/04/12/%E4%BD%A0%E5%A5%BD.html">&lt;p&gt;&lt;strong&gt;Jekyll博客&lt;/strong&gt;将从这里开始.&lt;/p&gt;
 
-&lt;p&gt;希望&lt;strong&gt;你&lt;/strong&gt;喜欢!&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll博客将从这里开始.</summary></entry><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="/actions/markdown/2020/03/06/fastpages-actions.html" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>/actions/markdown/2020/03/06/fastpages-actions</id><content type="html" xml:base="/actions/markdown/2020/03/06/fastpages-actions.html">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
+&lt;p&gt;希望&lt;strong&gt;你&lt;/strong&gt;喜欢!&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll博客将从这里开始.</summary></entry><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="/blog/actions/markdown/2020/03/06/fastpages-actions.html" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>/blog/actions/markdown/2020/03/06/fastpages-actions</id><content type="html" xml:base="/blog/actions/markdown/2020/03/06/fastpages-actions.html">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
 
 &lt;p&gt;Hi, I’m &lt;a href=&quot;https://twitter.com/HamelHusain&quot;&gt;Hamel Husain&lt;/a&gt;.  I’m a machine learning engineer at GitHub.  Recently, GitHub released a new product called &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;, which has mostly flown under the radar in the machine learning and data science community as just another continuous integration tool.&lt;/p&gt;
 
@@ -450,7 +450,7 @@
       &lt;p&gt;These additional dependencies are &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/_action_files/fastpages-jekyll.Dockerfile&quot;&gt;defined here&lt;/a&gt;, which uses the “jekyll build” command to add ruby dedpendencies from the Gemfile located at the root of the repo.  Additionally, this docker image is built by another Action workflow &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/.github/workflows/docker.yaml&quot;&gt;defined here&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Hamel Husain &amp; Jeremy Howard</name></author><summary type="html">What Superpowers?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/fastpages_posts/actions/actions_logo.png" /><media:content medium="image" url="/images/fastpages_posts/actions/actions_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing fastpages</title><link href="/fastpages/jupyter/2020/02/21/introducing-fastpages.html" rel="alternate" type="text/html" title="Introducing fastpages" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>/fastpages/jupyter/2020/02/21/introducing-fastpages</id><content type="html" xml:base="/fastpages/jupyter/2020/02/21/introducing-fastpages.html">&lt;!--
+&lt;/div&gt;</content><author><name>Hamel Husain &amp; Jeremy Howard</name></author><summary type="html">What Superpowers?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/images/fastpages_posts/actions/actions_logo.png" /><media:content medium="image" url="/blog/images/fastpages_posts/actions/actions_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing fastpages</title><link href="/blog/fastpages/jupyter/2020/02/21/introducing-fastpages.html" rel="alternate" type="text/html" title="Introducing fastpages" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>/blog/fastpages/jupyter/2020/02/21/introducing-fastpages</id><content type="html" xml:base="/blog/fastpages/jupyter/2020/02/21/introducing-fastpages.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -961,7 +961,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>Jeremy Howard &amp; Hamel Husain</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/diagram.png" /><media:content medium="image" url="/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
+&lt;/div&gt;</content><author><name>Jeremy Howard &amp; Hamel Husain</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/images/diagram.png" /><media:content medium="image" url="/blog/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="/blog/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>/blog/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="/blog/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
 
@@ -1015,7 +1015,7 @@
 
 &lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/logo.png&quot; alt=&quot;&quot; title=&quot;fast.ai's logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/logo.png&quot; alt=&quot;&quot; title=&quot;fast.ai's logo&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
@@ -1076,7 +1076,7 @@ wget https://example.com/cat_photo1.png
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Microsoft Word Example Post</title><link href="/2020/01/01/Microsoft-Word-Example-Post.html" rel="alternate" type="text/html" title="Microsoft Word Example Post" /><published>2020-01-01T00:00:00-06:00</published><updated>2020-01-01T00:00:00-06:00</updated><id>/2020/01/01/Microsoft-Word-Example-Post</id><content type="html" xml:base="/2020/01/01/Microsoft-Word-Example-Post.html">&lt;p&gt;When writing a blog post with Microsoft Word – the filename becomes the title. In this case the file name is “2020-01-01-Microsoft-Word-Example-Post.docx”.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Microsoft Word Example Post</title><link href="/blog/2020/01/01/Microsoft-Word-Example-Post.html" rel="alternate" type="text/html" title="Microsoft Word Example Post" /><published>2020-01-01T00:00:00-06:00</published><updated>2020-01-01T00:00:00-06:00</updated><id>/blog/2020/01/01/Microsoft-Word-Example-Post</id><content type="html" xml:base="/blog/2020/01/01/Microsoft-Word-Example-Post.html">&lt;p&gt;When writing a blog post with Microsoft Word – the filename becomes the title. In this case the file name is “2020-01-01-Microsoft-Word-Example-Post.docx”.&lt;/p&gt;
 
 &lt;p&gt;There is minimal support for Word documents in fastpages compared to Jupyter notebooks. Some known limitations:&lt;/p&gt;
 
@@ -1099,13 +1099,13 @@ wget https://example.com/cat_photo1.png
 
 &lt;p&gt;Consider this graphic prepared by the NumFOCUS foundation showing the number of maintainers for three widely used scientific computing projects:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-01-01-Microsoft-Word-Example-Post/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-01-01-Microsoft-Word-Example-Post/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can see that across these three projects, there is a very low ratio maintainers to users. Fixing this problem is not an easy task and likely requires innovative solutions to address the economics as well as tools.&lt;/p&gt;
 
 &lt;p&gt;Due to its recent momentum and popularity, Kubeflow suffers from a similar fate as illustrated by the growth of new issues opened:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2020-01-01-Microsoft-Word-Example-Post/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-01-01-Microsoft-Word-Example-Post/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Source: “&lt;a href=&quot;http://bit.ly/tf-github&quot;&gt;&lt;span class=&quot;underline&quot;&gt;TensorFlow World 2019, Automating Your Developer Workflow With ML&lt;/span&gt;&lt;/a&gt;”&lt;/p&gt;
 
