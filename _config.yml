@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: ""
+url: https://ableasd.github.io/
 date_format: "ordinal"
 title: Squ
 subtitle: "公众号：???"
