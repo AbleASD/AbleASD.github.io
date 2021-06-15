@@ -4,10 +4,10 @@
 baseurl:
 url: https://ableasd.github.io
 date_format: "ordinal"
-title: Squ
-subtitle: "公众号：???"
-description: "个人博客，公众号"
-keywords: Squ
+title: Justice's blog
+subtitle: "正义的伙伴"
+description: "个人博客"
+keywords: Justice
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -37,8 +37,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: AbleASD
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,10 +49,10 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: 正义的伙伴
 organization: 
 organization_url: 
-github_username: mzlogin
+github_username: AbleASD
 location: Kunming, China
 email: 
 
