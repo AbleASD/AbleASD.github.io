@@ -116,7 +116,15 @@
       "title"    : "MES",
       "category" : "MES",
       
-      "url"      : "https://ableasd.github.io/2021/05/28/test/",
+      "url"      : "https://ableasd.github.io/2021/05/28/MES/",
+      "keywords" : ""
+    } ,
+  
+    {
+      "title"    : "GIT 仓库搭建",
+      "category" : "Git",
+      
+      "url"      : "https://ableasd.github.io/2021/06/15/git%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA/",
       "keywords" : ""
     } ,
   
