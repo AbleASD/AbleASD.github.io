@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><title>MES &mdash; Squ</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/primer-css/css/primer.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/collection.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/repo-card.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/sections/repo-list.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/boxed-group.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/globals/common.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/globals/responsive.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/posts/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/octicons/octicons/octicons.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist/github.css"><link rel="canonical" href="https://ableasd.github.io/2021/05/28/test/"><link rel="alternate" type="application/atom+xml" title="Squ" href="https://ableasd.github.io/feed.xml"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/favicon.ico"><meta property="og:title" content="MES"><meta name="keywords" content="Squ"><meta name="og:keywords" content="Squ"><meta name="description" content="Vue环境配置"><meta name="og:description" content="Vue环境配置"><meta property="og:url" content="https://ableasd.github.io/2021/05/28/test/"><meta property="og:site_name" content="Squ"><meta property="og:type" content="article"><meta property="og:locale" content="zh_CN" /><meta property="article:published_time" content="2021-05-28"> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/jquery/dist/jquery.min.js"></script> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/jquery-ui.js"></script> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/main.js"></script></head><body class="" data-mz=""><header class="site-header"><div class="container"><h1><a href="https://ableasd.github.io/" title="Squ"><span class="octicon octicon-mark-github"></span> Squ</a></h1><button class="collapsed mobile-visible" type="button" onclick="toggleMenu();"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><nav class="site-header-nav" role="navigation"> <a href="https://ableasd.github.io/" class=" site-header-nav-item" target="" title="首页">首页</a> <a href="https://ableasd.github.io/categories/" class=" site-header-nav-item" target="" title="分类">分类</a> <a href="https://ableasd.github.io/wiki/" class=" site-header-nav-item" target="" title="维基">维基</a> <a href="https://ableasd.github.io/links/" class=" site-header-nav-item" target="" title="链接">链接</a> <a href="https://ableasd.github.io/about/" class=" site-header-nav-item" target="" title="关于">关于</a></nav></div></header><section class="collection-head small geopattern" data-pattern-id="MES"><div class="container"><div class="columns"><div class="column three-fourths"><div class="collection-title"><h1 class="collection-header">MES</h1><div class="collection-info"> <span class="meta-info"> <span class="octicon octicon-calendar"></span> 2021/05/28 </span> <span class="meta-info"> <span class="octicon octicon-file-directory"></span> <a href="https://ableasd.github.io/categories/#MES" title="MES">MES</a> </span> <span class="meta-info"> <span class="octicon octicon-clock"></span> 共 1966 字，约 6 分钟 </span></div></div></div><div class="column one-fourth mobile-hidden"><div class="collection-title"> <img style="height:72px;width:72px" src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/images/qrcode.jpg" alt="闷骚的程序员" /></div></div></div></div></section><section class="container content"><div class="columns"><div class="column three-fourths" ><article class="article-content markdown-body"><h1 id="vue环境配置">Vue环境配置</h1><ul><li>下载<a href="https://code.visualstudio.com/Download">vsCode</a></li><li>下载<a href="https://nodejs.org/zh-cn/download/">npm</a></li></ul><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 检查版本号</span>
+npm <span class="nt">-V</span> 
+
+<span class="c"># 下载vue框架</span>
+npm <span class="nb">install</span> <span class="nt">-g</span> @vue/cli
+
+<span class="c"># 检查vue是否安装成功</span>
+vue <span class="nt">-V</span>
+
+<span class="c"># 当前文件夹下新建项目</span>
+vue create demo
+<span class="c"># 或</span>
+vue ui
+<span class="c"># element-ui组件库安装</span>
+npm i element-ui <span class="nt">-S</span>
+
+<span class="c"># echarts组件库安装</span>
+npm <span class="nb">install </span>echarts <span class="nt">--save</span>
+
+<span class="c"># 安装vue-router组件</span>
+npm <span class="nb">install </span>vue-router 
+
+<span class="c"># 运行程序</span>
+npm run serve
+</code></pre></div></div><h1 id="使用">使用</h1><p>环境配置好后可以开始写页面了.</p><ol><li><strong>配置导航栏菜单</strong>, 根据自己的模块分级(这边只做到三级，三级以上还需要修改)，修改文件<code class="language-plaintext highlighter-rouge">/src/views/Main.vue</code>.</li></ol><div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          <span class="nx">menuData</span><span class="p">:</span> <span class="p">[{</span>
+              <span class="c1">//一级模块</span>
+              <span class="na">text</span><span class="p">:</span> <span class="dl">"</span><span class="s2">设备管理</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">index</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+              <span class="c1">//二级模块</span>
+              <span class="na">children</span><span class="p">:[</span>
+                  <span class="p">{</span>
+                    <span class="na">text</span><span class="p">:</span> <span class="dl">'</span><span class="s1">设备运行管理</span><span class="dl">'</span><span class="p">,</span>
+                    <span class="na">index</span><span class="p">:</span><span class="dl">''</span><span class="p">,</span>
+                    <span class="c1">//三级模块</span>
+                    <span class="na">children</span><span class="p">:[</span>
+                        <span class="p">{</span>
+                            <span class="na">text</span><span class="p">:</span> <span class="dl">'</span><span class="s1">设备状态监控</span><span class="dl">'</span><span class="p">,</span>
+                            <span class="na">index</span><span class="p">:</span><span class="dl">'</span><span class="s1">/equipment_status_monitoring</span><span class="dl">'</span><span class="p">,</span>
+                        <span class="p">},{</span>
+                            <span class="na">text</span><span class="p">:</span> <span class="dl">'</span><span class="s1">设备运行记录</span><span class="dl">'</span><span class="p">,</span>
+                            <span class="na">index</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/equipment_operation_record</span><span class="dl">'</span><span class="p">,</span>
+                        <span class="p">},{</span>
+                            <span class="na">text</span><span class="p">:</span> <span class="dl">'</span><span class="s1">设备运行报表</span><span class="dl">'</span><span class="p">,</span>
+                            <span class="na">index</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/equipment_operation_report</span><span class="dl">'</span><span class="p">,</span>
+                        <span class="p">}</span>
+                    <span class="p">]</span>
+                  <span class="p">},</span>
+                  <span class="p">{</span>
+                     <span class="c1">//to do</span>
+                  <span class="p">}</span>
+              <span class="p">]</span>
+          <span class="p">}</span>
+</code></pre></div></div><p>在<code class="language-plaintext highlighter-rouge">//to do</code>中模仿<code class="language-plaintext highlighter-rouge">设备运行管理</code>中的内容，添加对应模块分级，index部分表示有页面的部分，请使用模块对应的英文加 下划线<strong>_</strong> . 修改完后运行程序验证导航栏是否有问题.</p><ol><li><strong>添加页面和路由</strong></li></ol><h5 id="添加页面">添加页面</h5><blockquote><p>​ 在<code class="language-plaintext highlighter-rouge">src/views</code>路径下新建文件夹, 名称以模块名对应的英文命名如<strong>设备管理</strong>命名为<strong>device_management</strong>，在此目录下创建页面文件, 文件名称与1中<code class="language-plaintext highlighter-rouge">index</code>名称一致如<code class="language-plaintext highlighter-rouge">equipment_operation_report.vue</code></p></blockquote><hr /><h5 id="添加路由">添加路由</h5><blockquote><p>src/router/index.js文件中添加路由,示例如下</p></blockquote><div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="k">default</span> <span class="k">new</span> <span class="nx">VueRouter</span><span class="p">({</span>
+    <span class="na">routes</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/equipment_status_monitoring</span><span class="dl">'</span><span class="p">,</span>
+            <span class="na">component</span><span class="p">:()</span><span class="o">=&gt;</span><span class="k">import</span><span class="p">(</span><span class="dl">"</span><span class="s2">@/views/device_management/equipment_status_monitoring</span><span class="dl">"</span><span class="p">)</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/equipment_operation_record</span><span class="dl">'</span><span class="p">,</span>
+            <span class="na">component</span><span class="p">:()</span><span class="o">=&gt;</span><span class="k">import</span><span class="p">(</span><span class="dl">"</span><span class="s2">@/views/device_management/equipment_operation_record</span><span class="dl">"</span><span class="p">)</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/equipment_operation_report</span><span class="dl">'</span><span class="p">,</span>
+            <span class="na">component</span><span class="p">:()</span><span class="o">=&gt;</span><span class="k">import</span><span class="p">(</span><span class="dl">"</span><span class="s2">@/views/device_management/equipment_operation_report</span><span class="dl">"</span><span class="p">)</span>
+        <span class="p">},</span>
+        <span class="c1">//以下为添加的内容</span>
+        <span class="p">{</span>
+            <span class="c1">// path与1中index内容对应</span>
+            <span class="na">path</span><span class="p">:</span> <span class="dl">'</span><span class="s1">/process_report</span><span class="dl">'</span>
+            <span class="c1">// import内容为process_report.vue路径, 即页面文件</span>
+            <span class="na">component</span><span class="p">:()</span><span class="o">=&gt;</span><span class="k">import</span><span class="p">(</span><span class="dl">"</span><span class="s2">@/views/device_management/process_report.vue</span><span class="dl">"</span><span class="p">)</span>
+        <span class="p">}</span>   
+        <span class="p">]</span>
+
+<span class="p">}</span>
+</code></pre></div></div><ol><li><strong>编辑页面</strong></li></ol><p>以上步骤完成后, 直接编辑对应的页面文件即可. 使用以下两个组件库找到对应的空间将代码粘贴上去即可，之后有什么布局问题可以百度或者讨论一下.</p><p><a href="https://element.eleme.io/#/zh-CN/component/icon">element-ui</a>:按键，表格，对话框等控件</p><p><a href="https://echarts.apache.org/examples/en/index.html">echarts</a>：图形，饼状图，散点图，柱状图等demo</p><p><a href="https://cn.vuejs.org/v2/guide/">vue</a>：vue框架的使用手册, 作为资料查询</p><p>如将以下代码粘贴到你的页面文件中保存后即可显示一个select选择器</p><div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">template</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">el</span><span class="o">-</span><span class="nx">select</span> <span class="nx">v</span><span class="o">-</span><span class="nx">model</span><span class="o">=</span><span class="dl">"</span><span class="s2">value</span><span class="dl">"</span> <span class="nx">placeholder</span><span class="o">=</span><span class="dl">"</span><span class="s2">请选择</span><span class="dl">"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">el</span><span class="o">-</span><span class="nx">option</span>
+      <span class="nx">v</span><span class="o">-</span><span class="k">for</span><span class="o">=</span><span class="dl">"</span><span class="s2">item in options</span><span class="dl">"</span>
+      <span class="p">:</span><span class="nx">key</span><span class="o">=</span><span class="dl">"</span><span class="s2">item.value</span><span class="dl">"</span>
+      <span class="p">:</span><span class="nx">label</span><span class="o">=</span><span class="dl">"</span><span class="s2">item.label</span><span class="dl">"</span>
+      <span class="p">:</span><span class="nx">value</span><span class="o">=</span><span class="dl">"</span><span class="s2">item.value</span><span class="dl">"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/el-option</span><span class="err">&gt;
+</span>  <span class="o">&lt;</span><span class="sr">/el-select</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="sr">/template</span><span class="err">&gt;
+</span>
+<span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+  <span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+    <span class="nx">data</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">{</span>
+        <span class="na">options</span><span class="p">:</span> <span class="p">[{</span>
+          <span class="na">value</span><span class="p">:</span> <span class="dl">'</span><span class="s1">选项1</span><span class="dl">'</span><span class="p">,</span>
+          <span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">黄金糕</span><span class="dl">'</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="na">value</span><span class="p">:</span> <span class="dl">'</span><span class="s1">选项2</span><span class="dl">'</span><span class="p">,</span>
+          <span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">双皮奶</span><span class="dl">'</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="na">value</span><span class="p">:</span> <span class="dl">'</span><span class="s1">选项3</span><span class="dl">'</span><span class="p">,</span>
+          <span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">蚵仔煎</span><span class="dl">'</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="na">value</span><span class="p">:</span> <span class="dl">'</span><span class="s1">选项4</span><span class="dl">'</span><span class="p">,</span>
+          <span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">龙须面</span><span class="dl">'</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="na">value</span><span class="p">:</span> <span class="dl">'</span><span class="s1">选项5</span><span class="dl">'</span><span class="p">,</span>
+          <span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">北京烤鸭</span><span class="dl">'</span>
+        <span class="p">}],</span>
+        <span class="na">value</span><span class="p">:</span> <span class="dl">''</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div><h1 id="如图">如图:</h1><p><img src="C:\Users\梁望\AppData\Roaming\Typora\typora-user-images\image-20210527204243574.png" alt="image-20210527204243574" /></p><div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#deebf7"><h3>文档信息</h3><ul><li>本文作者：<a href="https://ableasd.github.io" target="_blank">Zhuang Ma</a></li><li>本文链接：<a href="https://ableasd.github.io/2021/05/28/test/" target="_blank">https://ableasd.github.io/2021/05/28/test/</a></li><li>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li></ul></div></article><div class="share"></div><div class="comment"><div id="gitalk-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/gitalk/gitalk.css"> <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> <script> var gitalk = new Gitalk({ id: '/2021/05/28/test/', clientID: '', clientSecret: '', repo: '', owner: '', admin: [''], labels: ['gitment'], perPage: 50, }); gitalk.render('gitalk-container'); </script></div></div><div class="column one-fourth"><h3>Search</h3><div id="site_search"> <input style="width:96%" type="text" id="search_box" placeholder="Search"></div><ul id="search_results" style="font-size:14px;list-style-type:none;padding-top:10px;padding-left:10px;"></ul><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/simple-jekyll-search.min.js"></script> <script type="text/javascript"> SimpleJekyllSearch({ searchInput: document.getElementById('search_box'), resultsContainer: document.getElementById('search_results'), json: 'https://ableasd.github.io/assets/search_data.json?v=1623759256', searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>', noResultsText: 'No results found', limit: 10, fuzzy: false, exclude: ['Welcome'] }) </script><h3 class="post-directory-title mobile-hidden">Table of Contents</h3><div id="post-directory-module" class="mobile-hidden"><section class="post-directory"><dl></dl></section></div><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/jquery.toc.js"></script></div></div></section><footer class="container"><div class="site-footer" role="contentinfo"><div class="copyright left mobile-block"> © 2015 <span title="Zhuang Ma">Zhuang Ma</span> <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a></div><ul class="site-footer-links right mobile-hidden"><li> <a href="javascript:window.scrollTo(0,0)" >TOP</a></li></ul><a href="https://github.com/AbleASD/AbleASD.github.io" target="_blank" aria-label="view source code"> <span class="mega-octicon octicon-mark-github" title="GitHub"></span> </a><ul class="site-footer-links mobile-hidden"><li> <a href="https://ableasd.github.io/" title="首页" target="">首页</a></li><li> <a href="https://ableasd.github.io/categories/" title="分类" target="">分类</a></li><li> <a href="https://ableasd.github.io/wiki/" title="维基" target="">维基</a></li><li> <a href="https://ableasd.github.io/links/" title="链接" target="">链接</a></li><li> <a href="https://ableasd.github.io/about/" title="关于" target="">关于</a></li><li><a href="https://ableasd.github.io/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></li></ul></div></footer><div class="tools-wrapper"> <a class="gotop" href="#" title="回到顶部"><span class="octicon octicon-arrow-up"></span></a></div><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/geopattern.js"></script> <script> jQuery(document).ready(function($) { $('.geopattern').each(function(){ $(this).geopattern($(this).data('pattern-id')); }); /* hljs.initHighlightingOnLoad(); */ }); </script></body></html>
