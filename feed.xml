@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-05-27T22:05:16-05:00</updated><id>/blog/feed.xml</id><title type="html">Lost Squirrel’s blog</title><subtitle>便捷实用的Jupyter博客网站。此外，还支持 Word 文档，以及 Markdown。</subtitle><entry><title type="html">MES</title><link href="/blog/mes/2021/05/28/test.html" rel="alternate" type="text/html" title="MES" /><published>2021-05-28T00:00:00-05:00</published><updated>2021-05-28T00:00:00-05:00</updated><id>/blog/mes/2021/05/28/test</id><content type="html" xml:base="/blog/mes/2021/05/28/test.html">&lt;h1 id=&quot;vue环境配置&quot;&gt;Vue环境配置&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-06-15T02:23:34-05:00</updated><id>/blog/feed.xml</id><title type="html">Lost Squirrel’s blog</title><subtitle>便捷实用的Jupyter博客网站。此外，还支持 Word 文档，以及 Markdown。</subtitle><entry><title type="html">MES</title><link href="/blog/mes/2021/05/28/test.html" rel="alternate" type="text/html" title="MES" /><published>2021-05-28T00:00:00-05:00</published><updated>2021-05-28T00:00:00-05:00</updated><id>/blog/mes/2021/05/28/test</id><content type="html" xml:base="/blog/mes/2021/05/28/test.html">&lt;h1 id=&quot;vue环境配置&quot;&gt;Vue环境配置&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;下载&lt;a href=&quot;https://code.visualstudio.com/Download&quot;&gt;vsCode&lt;/a&gt;&lt;/li&gt;
@@ -845,6 +845,8 @@ Markdown 使用了很多特殊符号来表示特定的意义，如果需要显�
 结果：  
 **文本加粗**  
 \*\*正常显示星号\*\*
+
+$y^2 + x^2 = z$
 
 Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
 ```
