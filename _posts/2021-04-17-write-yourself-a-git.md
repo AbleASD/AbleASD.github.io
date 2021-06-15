@@ -2,7 +2,7 @@
 title: Write yourself a git
 layout: post
 categories:
-- tutorial
+- Tutorial
 toc: true
 ---
 
