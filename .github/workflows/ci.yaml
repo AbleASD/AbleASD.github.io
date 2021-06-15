@@ -17,8 +17,8 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: convert notebooks and word docs to posts
-      uses: ./_action_files
+#     - name: convert notebooks and word docs to posts
+#       uses: ./_action_files
 
     - name: setup directories for Jekyll build
       run: |
