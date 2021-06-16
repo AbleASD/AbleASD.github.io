@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-06-16T13:08:47+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">Mathtype 破解</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/" rel="alternate" type="text/html" title="Mathtype 破解" /><published>2021-06-16T00:00:00+08:00</published><updated>2021-06-16T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/">&lt;h1 id=&quot;mathtype-破解&quot;&gt;Mathtype 破解&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-06-16T20:48:26+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">Mathtype 破解</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/" rel="alternate" type="text/html" title="Mathtype 破解" /><published>2021-06-16T00:00:00+08:00</published><updated>2021-06-16T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/">&lt;h1 id=&quot;mathtype-破解&quot;&gt;Mathtype 破解&lt;/h1&gt;
 
 &lt;p&gt;链接：https://pan.baidu.com/s/1qIeuNsvBGVG1KQ2VWoUYUQ&lt;/p&gt;
 
@@ -40,6 +40,20 @@ ssh &lt;span class=&quot;nt&quot;&gt;-keygen&lt;/span&gt; &lt;span class=&quot;n
 &lt;h2 id=&quot;clone-服务器代码&quot;&gt;Clone 服务器代码&lt;/h2&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 在文件夹路径下右键打开gitBash, 将代码拉取到当前目录.&lt;/span&gt;
 git clone git@&amp;lt;ip&amp;gt;:/home/git/repository/mes.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;代码同步&quot;&gt;代码同步&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 同步本地分支代码和远程分支, 拉取远程代码到本地&lt;/span&gt;
+git pull
+
+&lt;span class=&quot;c&quot;&gt;# 查询修改&lt;/span&gt;
+git status &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 提交代码&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;本次修改的说明&quot;&lt;/span&gt;
+git push origin HEAD 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>正义的伙伴</name></author><category term="Git" /><summary type="html">Git 仓库搭建</summary></entry><entry><title type="html">MES</title><link href="https://ableasd.github.io/pages/AbleASD/2021/05/28/MES/" rel="alternate" type="text/html" title="MES" /><published>2021-05-28T00:00:00+08:00</published><updated>2021-05-28T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/05/28/MES</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/05/28/MES/">&lt;h1 id=&quot;vue环境配置&quot;&gt;Vue环境配置&lt;/h1&gt;
 
 &lt;ul&gt;
