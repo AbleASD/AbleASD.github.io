@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-06-16T21:11:51+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">Mathtype 破解</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/" rel="alternate" type="text/html" title="Mathtype 破解" /><published>2021-06-16T00:00:00+08:00</published><updated>2021-06-16T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/">&lt;h1 id=&quot;mathtype-破解&quot;&gt;Mathtype 破解&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-06-16T21:18:26+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">Mathtype 破解</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/" rel="alternate" type="text/html" title="Mathtype 破解" /><published>2021-06-16T00:00:00+08:00</published><updated>2021-06-16T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/16/Mathtype/">&lt;h1 id=&quot;mathtype-破解&quot;&gt;Mathtype 破解&lt;/h1&gt;
 
 &lt;p&gt;链接：https://pan.baidu.com/s/1qIeuNsvBGVG1KQ2VWoUYUQ&lt;/p&gt;
 
@@ -23,23 +23,26 @@
 
 &lt;h2 id=&quot;生成-ssh-key-并保存到服务器&quot;&gt;生成 SSH Key 并保存到服务器&lt;/h2&gt;
 
+&lt;p&gt;桌面右键打开 gitbash&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 配置gitconfig&lt;/span&gt;
 git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;s2&quot;&gt;&quot;your name&quot;&lt;/span&gt;
 git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;s2&quot;&gt;&quot;your@email.com&quot;&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 生成ssh密钥&lt;/span&gt;
-ssh &lt;span class=&quot;nt&quot;&gt;-keygen&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your@email.com&quot;&lt;/span&gt;
+ssh-keygen &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your@email.com&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# (按回车)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;完成以上步骤后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Users\userName\.ssh&lt;/code&gt;目录下有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id_rsa&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id_rsa.pub&lt;/code&gt;两个文件, 其中&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.pub&lt;/code&gt;为公钥, 将其保存到服务器中.&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 将公钥追加到服务器authorized_keys文件中实现免密效果&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\u&lt;/span&gt;serName&lt;span class=&quot;se&quot;&gt;\.&lt;/span&gt;ssh&lt;span class=&quot;se&quot;&gt;\i&lt;/span&gt;d_rsa.pub &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; git@&amp;lt;ip&amp;gt;:/home/git/.ssh/authorized_keys
 
-&lt;span class=&quot;c&quot;&gt;# 或者使用这么命令&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 或者使用这条命令&lt;/span&gt;
  ssh git@服务器公网IP地址 &lt;span class=&quot;s1&quot;&gt;'cat &amp;gt;&amp;gt; .ssh/authorized_keys'&lt;/span&gt; &amp;lt; ~/.ssh/id_rsa.pub
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h2 id=&quot;clone-服务器代码&quot;&gt;Clone 服务器代码&lt;/h2&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 在文件夹路径下右键打开gitBash, 将代码拉取到当前目录.&lt;/span&gt;
 git clone git@&amp;lt;ip&amp;gt;:/home/git/repository/mes.git
+&lt;span class=&quot;c&quot;&gt;# 输入密码如 git&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;代码同步&quot;&gt;代码同步&lt;/h2&gt;
