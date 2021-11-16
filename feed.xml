@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-06-21T21:32:23+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">vsCode 运行 python</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python/" rel="alternate" type="text/html" title="vsCode 运行 python" /><published>2021-06-21T00:00:00+08:00</published><updated>2021-06-21T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python/">&lt;h1 id=&quot;vs-code-python-虚拟环境配置&quot;&gt;VS Code Python 虚拟环境配置&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-11-16T20:22:08+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">vue 手风琴导航栏</title><link href="https://ableasd.github.io/pages/AbleASD/2021/07/23/%E6%89%8B%E9%A3%8E%E7%90%B4%E5%AF%BC%E8%88%AA%E6%A0%8F/" rel="alternate" type="text/html" title="vue 手风琴导航栏" /><published>2021-07-23T00:00:00+08:00</published><updated>2021-07-23T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/07/23/%E6%89%8B%E9%A3%8E%E7%90%B4%E5%AF%BC%E8%88%AA%E6%A0%8F</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/07/23/%E6%89%8B%E9%A3%8E%E7%90%B4%E5%AF%BC%E8%88%AA%E6%A0%8F/">&lt;p&gt;暂时找到一个还不错的参考示例, 后期实现后看是否应用的上.
+https://www.jianshu.com/p/c964a988b143&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="vue" /><summary type="html">暂时找到一个还不错的参考示例, 后期实现后看是否应用的上. https://www.jianshu.com/p/c964a988b143</summary></entry><entry><title type="html">vsCode 搭建创建spring boot</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/29/Spring-Boot-in-vscode/" rel="alternate" type="text/html" title="vsCode 搭建创建spring boot" /><published>2021-06-29T00:00:00+08:00</published><updated>2021-06-29T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/29/Spring-Boot-in-vscode</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/29/Spring-Boot-in-vscode/">&lt;h1 id=&quot;插件&quot;&gt;插件&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lombok Annotations Support for VS Code&lt;/li&gt;
+  &lt;li&gt;Spring Initializr Java Support&lt;/li&gt;
+  &lt;li&gt;YML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;创建项目&quot;&gt;创建项目&lt;/h1&gt;
+
+&lt;p&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;p&lt;/kbd&gt; 搜索Spring Initializr&lt;/p&gt;
+
+&lt;p&gt;选择打包类型为Jar&lt;/p&gt;
+
+&lt;p&gt;暂时先写这些
+// TODO&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="vsCode," /><category term="springboot" /><summary type="html">插件 Lombok Annotations Support for VS Code Spring Initializr Java Support YML</summary></entry><entry><title type="html">vsCode 运行 python</title><link href="https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python/" rel="alternate" type="text/html" title="vsCode 运行 python" /><published>2021-06-21T00:00:00+08:00</published><updated>2021-06-21T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/06/21/vsCode-for-python/">&lt;h1 id=&quot;vs-code-python-虚拟环境配置&quot;&gt;VS Code Python 虚拟环境配置&lt;/h1&gt;
 
 &lt;h2 id=&quot;创建虚拟环境&quot;&gt;创建虚拟环境&lt;/h2&gt;
 
@@ -282,32 +297,7 @@ npm run serve
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>正义的伙伴</name></author><category term="MES" /><summary type="html">Vue环境配置</summary></entry><entry><title type="html">文献查询</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2/" rel="alternate" type="text/html" title="文献查询" /><published>2021-04-26T00:00:00+08:00</published><updated>2021-04-26T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2/">&lt;h1 id=&quot;文献检索方法&quot;&gt;文献检索方法&lt;/h1&gt;
 
-&lt;p&gt;使用&lt;a href=&quot;https://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;搜索论文名, 将&lt;strong&gt;DOI&lt;/strong&gt;拷贝下来在&lt;a href=&quot;https://www.scihub.net.cn/sci-hub/&quot;&gt;SCI-HUB&lt;/a&gt;搜索下载&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="Papers" /><summary type="html">文献检索方法</summary></entry><entry><title type="html">工厂模式</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" rel="alternate" type="text/html" title="工厂模式" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/">&lt;h4 id=&quot;工厂模式&quot;&gt;工厂模式&lt;/h4&gt;
-
-&lt;p&gt;工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;创建型模式&lt;/code&gt;，它提供了一种创建对象的最佳方式。在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;共同的接口&lt;/code&gt;来指向新创建的对象。&lt;/p&gt;
-&lt;h4 id=&quot;介绍&quot;&gt;介绍&lt;/h4&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;意图&lt;/code&gt;：定义一个创建对象的接口，让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;主要解决&lt;/code&gt;：主要解决接口选择的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;何时使用&lt;/code&gt;：我们明确地计划不同条件下创建不同实例时。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;如何解决&lt;/code&gt;：让其子类实现工厂接口，返回的也是一个抽象的产品。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;关键代码&lt;/code&gt;：创建过程在其子类执行。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;应用实例&lt;/code&gt;： 1、您需要一辆汽车，可以直接从工厂里面提货，而不用去管这辆汽车是怎么做出来的，以及这个汽车里面的具体实现。 2、Hibernate 换数据库只需换方言和驱动就可以。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;优点&lt;/code&gt;： 1、一个调用者想创建一个对象，只要知道其名称就可以了。 2、扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以。 3、屏蔽产品的具体实现，调用者只关心产品的接口。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缺点&lt;/code&gt;：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;使用场景&lt;/code&gt;： 1、日志记录器：记录可能记录到本地硬盘、系统事件、远程服务器等，用户可以选择记录日志到什么地方。 2、数据库访问，当用户不知道最后系统采用哪一类数据库，以及数据库可能有变化时。 3、设计一个连接服务器的框架，需要三个协议，”POP3”、”IMAP”、”HTTP”，可以把这三个作为产品类，共同实现一个接口。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;注意事项&lt;/code&gt;：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。&lt;/p&gt;
-
-&lt;h4 id=&quot;note&quot;&gt;Note&lt;/h4&gt;
-&lt;p&gt;工厂模式核心思想是通过子类实现父类方法, 类的创建由子类完成而提供给用户的是父类这个公共的接口. 当需要增加类型时只需要继承抽象类来实现一个具体类即可&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="设计模式" /><summary type="html">工厂模式</summary></entry><entry><title type="html">Write yourself a git</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git/" rel="alternate" type="text/html" title="Write yourself a git" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git/">&lt;h1 id=&quot;write-yourself-a-git&quot;&gt;Write yourself a git&lt;/h1&gt;
+&lt;p&gt;使用&lt;a href=&quot;https://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;搜索论文名, 将&lt;strong&gt;DOI&lt;/strong&gt;拷贝下来在&lt;a href=&quot;https://www.scihub.net.cn/sci-hub/&quot;&gt;SCI-HUB&lt;/a&gt;搜索下载&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="Papers" /><summary type="html">文献检索方法</summary></entry><entry><title type="html">Write yourself a git</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git/" rel="alternate" type="text/html" title="Write yourself a git" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/write-yourself-a-git/">&lt;h1 id=&quot;write-yourself-a-git&quot;&gt;Write yourself a git&lt;/h1&gt;
 
 &lt;p&gt;参考 &lt;a href=&quot;https://wyag.thb.lt/&quot;&gt;Write yourself git&lt;/a&gt;&lt;/p&gt;
 
@@ -667,351 +657,29 @@ git 对象包括blob, commit, tag和tree四种，其为ASCII码结构如：
 &lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'wb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
             &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zlib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compress&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>正义的伙伴</name></author><category term="Tutorial" /><summary type="html">Write yourself a git</summary></entry><entry><title type="html">MarkDown 使用手册</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/Markdwon%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="MarkDown 使用手册" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/Markdwon%E7%AC%94%E8%AE%B0</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/Markdwon%E7%AC%94%E8%AE%B0/">&lt;h1 id=&quot;markdown使用手册&quot;&gt;MarkDown使用手册&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>正义的伙伴</name></author><category term="Tutorial" /><summary type="html">Write yourself a git</summary></entry><entry><title type="html">工厂模式</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" rel="alternate" type="text/html" title="工厂模式" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/">&lt;h4 id=&quot;工厂模式&quot;&gt;工厂模式&lt;/h4&gt;
 
-&lt;p&gt;参考：
-&lt;em&gt;&lt;a href=&quot;https://sspai.com/post/54912&quot;&gt;少数派markdown完全使用详解&lt;/a&gt;&lt;/em&gt;
-&lt;em&gt;&lt;a href=&quot;https://www.runoob.com/markdown/md-tutorial.html&quot;&gt;菜鸟教程&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;创建型模式&lt;/code&gt;，它提供了一种创建对象的最佳方式。在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;共同的接口&lt;/code&gt;来指向新创建的对象。&lt;/p&gt;
+&lt;h4 id=&quot;介绍&quot;&gt;介绍&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;意图&lt;/code&gt;：定义一个创建对象的接口，让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行。&lt;/p&gt;
 
-&lt;h2 id=&quot;标题&quot;&gt;标题&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;主要解决&lt;/code&gt;：主要解决接口选择的问题。&lt;/p&gt;
 
-&lt;p&gt;标题表示如下，从上到下分别表示一级到四级标题&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;何时使用&lt;/code&gt;：我们明确地计划不同条件下创建不同实例时。&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# 一级标题1&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;## 二级标题2&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;### 三级标题3&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;#### 四级标题4&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;##### 五级标题5&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;###### 六级标题6&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;如何解决&lt;/code&gt;：让其子类实现工厂接口，返回的也是一个抽象的产品。&lt;/p&gt;
 
-&lt;h2 id=&quot;段落&quot;&gt;段落&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;关键代码&lt;/code&gt;：创建过程在其子类执行。&lt;/p&gt;
 
-&lt;h3 id=&quot;换行与空格&quot;&gt;换行与空格&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;应用实例&lt;/code&gt;： 1、您需要一辆汽车，可以直接从工厂里面提货，而不用去管这辆汽车是怎么做出来的，以及这个汽车里面的具体实现。 2、Hibernate 换数据库只需换方言和驱动就可以。&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;软换行：&lt;kbd&gt;SHIFT&lt;/kbd&gt;+&lt;kbd&gt;ENTER&lt;/kbd&gt;进行软换行，软换行只在编辑页面可以看到，当文档被导出时换行会被忽略&lt;/li&gt;
-  &lt;li&gt;硬换行：通过&lt;kbd&gt;SPACE&lt;/kbd&gt;+&lt;kbd&gt;SPACE&lt;/kbd&gt;+&lt;kbd&gt;SHIFT&lt;/kbd&gt;+&lt;kbd&gt;ENTER&lt;/kbd&gt;完成硬换行。硬换行将在文档被导出时被保留，且不存在换段时的段后距离。&lt;/li&gt;
-  &lt;li&gt;换段：通过&lt;kbd&gt;ENTER&lt;/kbd&gt;完成一次换段，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Typora&lt;/code&gt;会自动完成两次软换行，从而完成一次换段。即换段时通过段与段之间通过添加空行来完成。&lt;/li&gt;
-  &lt;li&gt;空格：在输入连续的空格后，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Typora&lt;/code&gt;会在编辑器视图中保留这些空格，但是导出或打印文件时，会被省略成为一个。&lt;br /&gt;
-可在源代码模式下添加&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\&lt;/code&gt;转义或者用html风格的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;nbps&lt;/code&gt;保持连续空格。&lt;/li&gt;
-  &lt;li&gt;Windows风格（CR+LF）与UNIX风格（CR）的换行符：CR表示回车&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\r&lt;/code&gt;，即回到一行的开头，而LF表示换行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\n&lt;/code&gt;，即另起一行。&lt;br /&gt;
-所以Windows风格的换行符本质时[换行+回车]，而UNIX风格的换行符是[换行]。因此windows系统打开unix下的文档会全部显示在一行，需要通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;文件-偏好设置-编辑器-默认换行符&lt;/code&gt;进行修改。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;优点&lt;/code&gt;： 1、一个调用者想创建一个对象，只要知道其名称就可以了。 2、扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以。 3、屏蔽产品的具体实现，调用者只关心产品的接口。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缺点&lt;/code&gt;：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。&lt;/p&gt;
 
-&lt;h3 id=&quot;字体&quot;&gt;字体&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;使用场景&lt;/code&gt;： 1、日志记录器：记录可能记录到本地硬盘、系统事件、远程服务器等，用户可以选择记录日志到什么地方。 2、数据库访问，当用户不知道最后系统采用哪一类数据库，以及数据库可能有变化时。 3、设计一个连接服务器的框架，需要三个协议，”POP3”、”IMAP”、”HTTP”，可以把这三个作为产品类，共同实现一个接口。&lt;/p&gt;
 
-&lt;p&gt;有以下几种字体&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;注意事项&lt;/code&gt;：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*斜体文本*&lt;/span&gt;
-&lt;span class=&quot;gs&quot;&gt;**粗体文本**&lt;/span&gt;
-&lt;span class=&quot;ge&quot;&gt;_斜体文本_&lt;/span&gt;
-&lt;span class=&quot;gs&quot;&gt;__粗体文本__&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;分割线&quot;&gt;分割线&lt;/h3&gt;
-
-&lt;p&gt;一行中用三个以上的星号&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;，减号&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;，底线&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;来建立分割线，行内不可以有任何东西，但是符号之间可以插入空格。&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;***
----
-&lt;/span&gt;&lt;span class=&quot;ge&quot;&gt;__&lt;/span&gt;_
-&lt;span class=&quot;p&quot;&gt;* * *
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;删除线&quot;&gt;删除线&lt;/h3&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~需要删除的文本~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;格式：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~~&lt;/code&gt;&lt;strong&gt;需要删除的文本&lt;/strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~~&lt;/code&gt;
-&lt;del&gt;&lt;strong&gt;&lt;em&gt;需要删除的文本&lt;/em&gt;&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;下划线&quot;&gt;下划线&lt;/h3&gt;
-
-&lt;p&gt;下划线通过HTML&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;u&amp;gt;&lt;/code&gt;来实现，语法如下&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;u&amp;gt;&lt;/span&gt;下划线&lt;span class=&quot;nt&quot;&gt;&amp;lt;/u&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;结果：&lt;u&gt;下划线&lt;/u&gt;
-***&lt;/p&gt;
-
-&lt;h3 id=&quot;脚注&quot;&gt;脚注&lt;/h3&gt;
-
-&lt;p&gt;对文本的补充说明，以及效果如下：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;创建一个[^要注明的内容]
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;^要注明的内容&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;这是一个脚注&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;创建一个[^要注明的内容]&lt;/p&gt;
-
-&lt;h2 id=&quot;列表&quot;&gt;列表&lt;/h2&gt;
-
-&lt;h3 id=&quot;有序列表&quot;&gt;有序列表&lt;/h3&gt;
-
-&lt;p&gt;通过数字后跟&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt;表示：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 这是第一项
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 这是第二项
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;这是第一项&lt;/li&gt;
-  &lt;li&gt;这是第二项&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;无序列表&quot;&gt;无序列表&lt;/h3&gt;
-
-&lt;p&gt;通过在文本前加&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;来实现：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; 这是第一项
-&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; 这是第二项
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 这是第三项
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;这是第一项&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;这是第二项&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;这是第三项&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;列表嵌套&quot;&gt;列表嵌套&lt;/h3&gt;
-
-&lt;p&gt;在子列表前添加4个空格即可：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 第一项：
-&lt;span class=&quot;p&quot;&gt;    *&lt;/span&gt; 第一项的第一个元素
-&lt;span class=&quot;p&quot;&gt;    *&lt;/span&gt; 第一项的第二个元素
-&lt;span class=&quot;p&quot;&gt;    +&lt;/span&gt; 第一项的第三个元素
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 第二项：
-&lt;span class=&quot;p&quot;&gt;	*&lt;/span&gt; 第二项的第一个元素
-&lt;span class=&quot;p&quot;&gt;	+&lt;/span&gt; 第二项的第二个元素
-&lt;span class=&quot;p&quot;&gt;	-&lt;/span&gt; 第二项的第三个元素
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;第一项：
-    &lt;ul&gt;
-      &lt;li&gt;第一项的第一个元素&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;第一项的第二个元素&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;第一项的第三个元素&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;第二项：
-    &lt;ul&gt;
-      &lt;li&gt;第二项的第一个元素&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;第二项的第二个元素&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;第二项的第三个元素&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;区块&quot;&gt;区块&lt;/h2&gt;
-
-&lt;p&gt;区块引用：在段落开头处添加&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;，后紧跟一个空格实现，同时也可以进行嵌套&lt;br /&gt;
-结果如下：&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; 区块引用&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt; 引用块的第二行&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt;&amp;gt; 引用块的第三行&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;区块引用&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;引用块的第二行&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;引用块的第三行&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;列表中使用嵌套&quot;&gt;列表中使用嵌套&lt;/h3&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 这是第一项
-&lt;span class=&quot;gt&quot;&gt;	&amp;gt;引用块&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;	&amp;gt;引用块第二行】&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; 这是第二项
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;这是第一项
-    &lt;blockquote&gt;
-      &lt;p&gt;引用块
-引用块第二行】&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;这是第二项&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;链接&quot;&gt;链接&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[链接名称](链接地址)&lt;/code&gt;或者&lt;链接地址&gt;&lt;/链接地址&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;这是一个链接&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.baidu.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-或者
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;www.baidu.com&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;&amp;lt;980161025@qq.com&amp;gt;&lt;/span&gt;
-或者
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;这是必应搜索&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;这是百度搜索网站&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.bing.com&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;必应搜索&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;这是百度搜索网站&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://www.baidu.com&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;百度搜索&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;内部链接&quot;&gt;内部链接&lt;/h3&gt;
-
-&lt;p&gt;内部链接跳转只能到标题，当需要跳转到某一文本中时需要使用html的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;标签.&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;请跳转到位置一&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;point&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;这里是位置一&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;跳转到位置一&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#point&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;跳转到位置一&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;跳转到标题&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#标题&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#段落&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;跳转到段落&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;请跳转到位置一&lt;a name=&quot;point&quot; style=&quot;color:red&quot;&gt;这里是位置一&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;#point&quot;&gt;跳转到位置一&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;#point&quot;&gt;跳转到位置一&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;#标题&quot;&gt;跳转到标题&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;#段落&quot;&gt;跳转到段落&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;图片&quot;&gt;图片&lt;/h2&gt;
-
-&lt;p&gt;图片语法如下：&lt;/p&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt 属性文本&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;图片地址&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt 属性文本&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;图片地址&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;可选标题&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;各部分说明&quot;&gt;各部分说明&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;一个惊叹号&lt;kbd&gt;!&lt;/kbd&gt;&lt;/li&gt;
-  &lt;li&gt;接着一个方括号，里面放上图片的替代文字，也就是当图片还未加载成功时显示的替换文本&lt;/li&gt;
-  &lt;li&gt;接着一个普通括号，里面放上图片的网址，以及可选的用双引号（或单引号或括弧）包住的’title’文字，两者之间用若干个空格分割开来，如果加上了’title’文字，那么鼠标移到该图片上就会显示出该文字&lt;/li&gt;
-  &lt;li&gt;vsCode 中Markdown preview enhance只支持相对路径打开本地图片
-&lt;img src=&quot;.\46f8faf35352baf603fdb5ede1a04ea.jpg&quot; alt=&quot;桌面&quot; title=&quot;桌面图标&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;http://static.runoob.com/images/runoob-logo.png&quot; alt=&quot;Runoob&quot; title=&quot;runoob图标&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;.\46f8faf35352baf603fdb5ede1a04ea.jpg&quot; width=&quot;50%&quot; /&gt;
-    &lt;h3 id=&quot;表格&quot;&gt;表格&lt;/h3&gt;
-    &lt;p&gt;```markdown
-|	表头	|	表头	|
-|	—-	|	—-	|
-|	单元格	|	单元格	|
-|	单元格	|	单元格	|&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;| 左对齐 | 右对齐 | 居中对齐 |
-| :—–| —-: | :—-: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-| 左对齐    |    右对齐 | 居中对齐  |
-| :-------- | --------: | :-------: |
-| 单元格111 | 单元格222 | 单元格333 |
-| 单元格    |    单元格 |  单元格   |
-
-## 高级技巧
-
-### 支持的HTML元素
-不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写。  
-目前支持的HTML元素有\&amp;lt;kbd&amp;gt; \&amp;lt;b&amp;gt; \&amp;lt;i&amp;gt; \&amp;lt;em&amp;gt; \&amp;lt;sup&amp;gt; \&amp;lt;sub&amp;gt; \&amp;lt;br&amp;gt;等，如：
-```markdown
-使用 &amp;lt;kbd&amp;gt;Ctrl&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;Alt&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;Del&amp;lt;/kbd&amp;gt; 重启电脑
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;结果：&lt;br /&gt;
-使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑&lt;/p&gt;
-
-&lt;h3 id=&quot;转义&quot;&gt;转义&lt;/h3&gt;
-
-&lt;p&gt;Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：&lt;/p&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gs&quot;&gt;**文本加粗**&lt;/span&gt;
-&lt;span class=&quot;se&quot;&gt;\*\*&lt;/span&gt;正常显示星号&lt;span class=&quot;se&quot;&gt;\*\*&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;结果：&lt;br /&gt;
-&lt;strong&gt;文本加粗&lt;/strong&gt;&lt;br /&gt;
-**正常显示星号**&lt;/p&gt;
-
-\[y^2 + x^2 = z\]
-
-&lt;p&gt;Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\   反斜线
-`   反引号
-*   星号
-_   下划线
-{}  花括号
-[]  方括号
-()  小括号
-#   井字号
-+   加号
--   减号
-.   英文句点
-!   感叹号
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;公式&quot;&gt;公式&lt;/h3&gt;
-&lt;p&gt;当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：&lt;/p&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$ &lt;span class=&quot;se&quot;&gt;\V&lt;/span&gt;ert&lt;span class=&quot;se&quot;&gt;\v&lt;/span&gt;ec{x}&lt;span class=&quot;se&quot;&gt;\V&lt;/span&gt;ert_1=&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;um_{i=1}^N&lt;span class=&quot;se&quot;&gt;\v&lt;/span&gt;ert{x_i}&lt;span class=&quot;se&quot;&gt;\v&lt;/span&gt;ert $$
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;输出结果为：&lt;br /&gt;
-\(\Vert\vec{x}\Vert_1=\sum_{i=1}^N\vert{x_i}\vert\)&lt;/p&gt;
-
-&lt;h3 id=&quot;流程图&quot;&gt;流程图&lt;/h3&gt;
-&lt;p&gt;需要下载mermaid插件：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```mermaid
-graph LR
-A[方形] --&amp;gt;B(圆角)
-	B --&amp;gt; C{条件a}
-	C --&amp;gt;|a=1| D[结果1]
-	C --&amp;gt;|a=2| E[结果2]
-	F[横向流程图]
-```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph LR
-A[方形] --&amp;gt;B(圆角)
-    B --&amp;gt; C{条件a}
-    C --&amp;gt;|a=1| D[结果1]
-    C --&amp;gt;|a=2| E[结果2]
-    F[横向流程图]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```mermaid
-graph TD
-A[方形] --&amp;gt; B(圆角)
-	B --&amp;gt; C{条件a}
-	C --&amp;gt; |a=1| D[结果1]
-	C --&amp;gt; |a=2| E[结果2]
-	F[竖向流程图]
-```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
-A[方形] --&amp;gt; B(圆角)
-    B --&amp;gt; C{条件a}
-    C --&amp;gt; |a=1| D[结果1]
-    C --&amp;gt; |a=2| E[结果2]
-    F[竖向流程图]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
-        section 现有任务
-        已完成               :done,    des1, 2014-01-06,2014-01-08
-        进行中               :active,  des2, 2014-01-09, 3d
-        计划中               :         des3, after des2, 5d
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>正义的伙伴</name></author><category term="Markdown" /><summary type="html">MarkDown使用手册</summary></entry></feed>
+&lt;h4 id=&quot;note&quot;&gt;Note&lt;/h4&gt;
+&lt;p&gt;工厂模式核心思想是通过子类实现父类方法, 类的创建由子类完成而提供给用户的是父类这个公共的接口. 当需要增加类型时只需要继承抽象类来实现一个具体类即可&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="设计模式" /><summary type="html">工厂模式</summary></entry></feed>
