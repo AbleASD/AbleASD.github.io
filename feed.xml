@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-11-26T17:31:45+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">python 登录校园网</title><link href="https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91/" rel="alternate" type="text/html" title="python 登录校园网" /><published>2021-11-25T00:00:00+08:00</published><updated>2021-11-25T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91/">&lt;h2 id=&quot;准备工具&quot;&gt;准备工具&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ableasd.github.io/pages/AbleASD/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ableasd.github.io/pages/AbleASD/" rel="alternate" type="text/html" /><updated>2021-12-25T16:57:15+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/feed.xml</id><title type="html">Justice’s blog</title><subtitle>个人博客</subtitle><author><name>正义的伙伴</name></author><entry><title type="html">Navicat远程连接mysql数据库</title><link href="https://ableasd.github.io/pages/AbleASD/2021/12/16/Navicat%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5mysql%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="alternate" type="text/html" title="Navicat远程连接mysql数据库" /><published>2021-12-16T00:00:00+08:00</published><updated>2021-12-16T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/12/16/Navicat%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5mysql%E6%95%B0%E6%8D%AE%E5%BA%93</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/12/16/Navicat%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5mysql%E6%95%B0%E6%8D%AE%E5%BA%93/">&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mysql-server
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mysql-client
+
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt; mysql 
+update user 
+&lt;span class=&quot;nb&quot;&gt;set 
+    &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;password&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;‘123’&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+where 
+    &lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;’root’&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+flush privileges&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;netstat &lt;span class=&quot;nt&quot;&gt;-an&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;3306
+
+&lt;span class=&quot;c&quot;&gt;# we get&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# tcp   0   0   127.0.0.1:3306  0.0.0.0:*   LISTEN&lt;/span&gt;
+
+vim /etc/mysql/mysql.conf.d/mysqld.cnf
+
+&lt;span class=&quot;c&quot;&gt;# comment this line&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# bind-address          = 127.0.0.1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;use mysql;
+
+update user 
+set 
+    host = '%' 
+where
+    user = 'root';
+    
+flush privileges;
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>正义的伙伴</name></author><summary type="html">``` shell sudo apt install mysql-server sudo apt install mysql-client</summary></entry><entry><title type="html">python 登录校园网</title><link href="https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91/" rel="alternate" type="text/html" title="python 登录校园网" /><published>2021-11-25T00:00:00+08:00</published><updated>2021-11-25T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/11/25/python%E7%99%BB%E5%BD%95%E6%A0%A1%E5%9B%AD%E7%BD%91/">&lt;h2 id=&quot;准备工具&quot;&gt;准备工具&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;连接校园网 KMUST-WEB&lt;/li&gt;
   &lt;li&gt;Fiddle 抓包工具&lt;/li&gt;
@@ -375,29 +409,4 @@ npm run serve
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>正义的伙伴</name></author><category term="MES" /><summary type="html">Vue环境配置</summary></entry><entry><title type="html">文献查询</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2/" rel="alternate" type="text/html" title="文献查询" /><published>2021-04-26T00:00:00+08:00</published><updated>2021-04-26T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/26/%E6%96%87%E7%8C%AE%E6%9F%A5%E8%AF%A2/">&lt;h1 id=&quot;文献检索方法&quot;&gt;文献检索方法&lt;/h1&gt;
 
-&lt;p&gt;使用&lt;a href=&quot;https://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;搜索论文名, 将&lt;strong&gt;DOI&lt;/strong&gt;拷贝下来在&lt;a href=&quot;https://www.scihub.net.cn/sci-hub/&quot;&gt;SCI-HUB&lt;/a&gt;搜索下载&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="Papers" /><summary type="html">文献检索方法</summary></entry><entry><title type="html">工厂模式</title><link href="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/" rel="alternate" type="text/html" title="工厂模式" /><published>2021-04-17T00:00:00+08:00</published><updated>2021-04-17T00:00:00+08:00</updated><id>https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="https://ableasd.github.io/pages/AbleASD/2021/04/17/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/">&lt;h4 id=&quot;工厂模式&quot;&gt;工厂模式&lt;/h4&gt;
-
-&lt;p&gt;工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;创建型模式&lt;/code&gt;，它提供了一种创建对象的最佳方式。在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;共同的接口&lt;/code&gt;来指向新创建的对象。&lt;/p&gt;
-&lt;h4 id=&quot;介绍&quot;&gt;介绍&lt;/h4&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;意图&lt;/code&gt;：定义一个创建对象的接口，让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;主要解决&lt;/code&gt;：主要解决接口选择的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;何时使用&lt;/code&gt;：我们明确地计划不同条件下创建不同实例时。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;如何解决&lt;/code&gt;：让其子类实现工厂接口，返回的也是一个抽象的产品。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;关键代码&lt;/code&gt;：创建过程在其子类执行。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;应用实例&lt;/code&gt;： 1、您需要一辆汽车，可以直接从工厂里面提货，而不用去管这辆汽车是怎么做出来的，以及这个汽车里面的具体实现。 2、Hibernate 换数据库只需换方言和驱动就可以。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;优点&lt;/code&gt;： 1、一个调用者想创建一个对象，只要知道其名称就可以了。 2、扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以。 3、屏蔽产品的具体实现，调用者只关心产品的接口。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缺点&lt;/code&gt;：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;使用场景&lt;/code&gt;： 1、日志记录器：记录可能记录到本地硬盘、系统事件、远程服务器等，用户可以选择记录日志到什么地方。 2、数据库访问，当用户不知道最后系统采用哪一类数据库，以及数据库可能有变化时。 3、设计一个连接服务器的框架，需要三个协议，”POP3”、”IMAP”、”HTTP”，可以把这三个作为产品类，共同实现一个接口。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;注意事项&lt;/code&gt;：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。&lt;/p&gt;
-
-&lt;h4 id=&quot;note&quot;&gt;Note&lt;/h4&gt;
-&lt;p&gt;工厂模式核心思想是通过子类实现父类方法, 类的创建由子类完成而提供给用户的是父类这个公共的接口. 当需要增加类型时只需要继承抽象类来实现一个具体类即可&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="设计模式" /><summary type="html">工厂模式</summary></entry></feed>
+&lt;p&gt;使用&lt;a href=&quot;https://xueshu.baidu.com/&quot;&gt;百度学术&lt;/a&gt;搜索论文名, 将&lt;strong&gt;DOI&lt;/strong&gt;拷贝下来在&lt;a href=&quot;https://www.scihub.net.cn/sci-hub/&quot;&gt;SCI-HUB&lt;/a&gt;搜索下载&lt;/p&gt;</content><author><name>正义的伙伴</name></author><category term="Papers" /><summary type="html">文献检索方法</summary></entry></feed>
