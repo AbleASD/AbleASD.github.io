@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><title>c++ priority_queue 实现 &mdash; Justice's blog</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/primer-css/css/primer.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/collection.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/repo-card.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/sections/repo-list.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/components/boxed-group.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/globals/common.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/globals/responsive.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/css/posts/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/octicons/octicons/octicons.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist/github.css"><link rel="canonical" href="https://ableasd.github.io/2022/03/29/STL/"><link rel="alternate" type="application/atom+xml" title="Justice's blog" href="https://ableasd.github.io/feed.xml"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/favicon.ico"><meta property="og:title" content="c++ priority_queue 实现"><meta name="keywords" content="Justice"><meta name="og:keywords" content="Justice"><meta name="description" content="``` cpp#pragma once#include "><meta name="og:description" content="``` cpp#pragma once#include "><meta property="og:url" content="https://ableasd.github.io/2022/03/29/STL/"><meta property="og:site_name" content="Justice's blog"><meta property="og:type" content="article"><meta property="og:locale" content="zh_CN" /><meta property="article:published_time" content="2022-03-29"> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/jquery/dist/jquery.min.js"></script> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/jquery-ui.js"></script> <script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/main.js"></script></head><body class="" data-mz=""><header class="site-header"><div class="container"><h1><a href="https://ableasd.github.io/" title="Justice's blog"><span class="octicon octicon-mark-github"></span> Justice's blog</a></h1><button class="collapsed mobile-visible" type="button" onclick="toggleMenu();"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><nav class="site-header-nav" role="navigation"> <a href="https://ableasd.github.io/" class=" site-header-nav-item" target="" title="首页">首页</a> <a href="https://ableasd.github.io/categories/" class=" site-header-nav-item" target="" title="分类">分类</a> <a href="https://ableasd.github.io/wiki/" class=" site-header-nav-item" target="" title="维基">维基</a> <a href="https://ableasd.github.io/links/" class=" site-header-nav-item" target="" title="链接">链接</a> <a href="https://ableasd.github.io/about/" class=" site-header-nav-item" target="" title="关于">关于</a></nav></div></header><section class="collection-head small geopattern" data-pattern-id="c++ priority_qu"><div class="container"><div class="columns"><div class="column three-fourths"><div class="collection-title"><h1 class="collection-header">c++ priority_queue 实现</h1><div class="collection-info"> <span class="meta-info"> <span class="octicon octicon-calendar"></span> 2022/03/29 </span> <span class="meta-info"> <span class="octicon octicon-file-directory"></span> <a href="https://ableasd.github.io/categories/#STL" title="STL">STL</a> </span> <span class="meta-info"> <span class="octicon octicon-clock"></span> 共 1190 字，约 4 分钟 </span></div></div></div><div class="column one-fourth mobile-hidden"><div class="collection-title"></div></div></div></div></section><section class="container content"><div class="columns"><div class="column three-fourths" ><article class="article-content markdown-body"><div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#pragma once
+#include &lt;vector&gt;
+</span>
+<span class="c1">// 小于的仿函数</span>
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span>
+<span class="k">struct</span> <span class="nc">Less</span>
+<span class="p">{</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="p">()</span> <span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">val1</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">val2</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">val1</span> <span class="o">&lt;</span> <span class="n">val2</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+<span class="c1">// 大于的仿函数，</span>
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span>
+<span class="k">struct</span> <span class="nc">Greater</span>
+<span class="p">{</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="p">()(</span><span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">val1</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">val2</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">val1</span> <span class="o">&gt;</span> <span class="n">val2</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">,</span> <span class="k">class</span> <span class="nc">Container</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">T</span><span class="p">&gt;,</span> <span class="k">class</span> <span class="nc">Compare</span> <span class="o">=</span> <span class="n">Greater</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&gt;</span>
+<span class="k">class</span> <span class="nc">priority_queue</span>
+<span class="p">{</span>
+<span class="nl">private:</span>
+    <span class="n">Container</span> <span class="n">_c</span><span class="p">;</span>
+    <span class="n">Compare</span> <span class="n">_com</span><span class="p">;</span>
+
+<span class="nl">public:</span>
+    <span class="c1">// 向上调堆，发生push操作时元素加到最后一个位置</span>
+    <span class="kt">void</span> <span class="n">shiftUp</span><span class="p">(</span><span class="kt">int</span> <span class="n">child</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">parent</span> <span class="o">=</span> <span class="p">(</span><span class="n">child</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">child</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="c1">// 假设选用Greater，当parent &gt; child 时交换，即结果为升序，对应为小根堆</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">_com</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="n">parent</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">child</span><span class="p">]))</span>
+            <span class="p">{</span>
+                <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="n">parent</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">child</span><span class="p">]);</span>
+                <span class="n">child</span> <span class="o">=</span> <span class="n">parent</span><span class="p">;</span>
+                <span class="n">parent</span> <span class="o">=</span> <span class="p">(</span><span class="n">child</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+                <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="c1">// 向下调堆，发生pop则交换首尾元素然后删除尾元素</span>
+    <span class="kt">void</span> <span class="n">shiftDown</span><span class="p">(</span><span class="kt">int</span> <span class="n">parent</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">child</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">parent</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">child</span> <span class="o">&lt;</span> <span class="n">_c</span><span class="p">.</span><span class="n">size</span><span class="p">())</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">child</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="n">_c</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">_com</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="n">child</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">child</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]))</span>
+            <span class="p">{</span>
+                <span class="n">child</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">_com</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="n">parent</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">child</span><span class="p">]))</span>
+            <span class="p">{</span>
+                <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="n">parent</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">child</span><span class="p">]);</span>
+                <span class="n">parent</span> <span class="o">=</span> <span class="n">child</span><span class="p">;</span>
+                <span class="n">child</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">parent</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+                <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="c1">// const T &amp;val 参数防止传递对象时重新调用构造函数。</span>
+    <span class="kt">void</span> <span class="n">push</span><span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">val</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">_c</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">val</span><span class="p">);</span>
+        <span class="n">shiftUp</span><span class="p">(</span><span class="n">_c</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="kt">void</span> <span class="n">pop</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">_c</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">_c</span><span class="p">[</span><span class="n">_c</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]);</span>
+        <span class="n">_c</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span>
+        <span class="n">shiftDown</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">const</span> <span class="n">T</span><span class="o">&amp;</span> <span class="n">top</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_c</span><span class="p">.</span><span class="n">front</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="kt">size_t</span> <span class="n">size</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_c</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="n">empty</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_c</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+</code></pre></div></div><div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#deebf7"><h3>文档信息</h3><ul><li>本文作者：<a href="https://ableasd.github.io" target="_blank">正义的伙伴</a></li><li>本文链接：<a href="https://ableasd.github.io/2022/03/29/STL/" target="_blank">https://ableasd.github.io/2022/03/29/STL/</a></li><li>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li></ul></div></article><div class="share"></div><div class="comment"><div id="gitalk-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/vendor/gitalk/gitalk.css"> <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> <script> var gitalk = new Gitalk({ id: '/2022/03/29/STL/', clientID: '605d926b1bff7c574c59', clientSecret: '612f4ad65db5b1c7e18e120abbb3d22824cbf8c4', repo: 'blog-comment', owner: 'AbleASD', admin: ['AbleASD'], labels: ['gitment'], perPage: 50, }); gitalk.render('gitalk-container'); </script></div></div><div class="column one-fourth"><h3>Search</h3><div id="site_search"> <input style="width:96%" type="text" id="search_box" placeholder="Search"></div><ul id="search_results" style="font-size:14px;list-style-type:none;padding-top:10px;padding-left:10px;"></ul><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/simple-jekyll-search.min.js"></script> <script type="text/javascript"> SimpleJekyllSearch({ searchInput: document.getElementById('search_box'), resultsContainer: document.getElementById('search_results'), json: 'https://ableasd.github.io/assets/search_data.json?v=1650200754', searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>', noResultsText: 'No results found', limit: 10, fuzzy: false, exclude: ['Welcome'] }) </script><h3 class="post-directory-title mobile-hidden">Table of Contents</h3><div id="post-directory-module" class="mobile-hidden"><section class="post-directory"><dl></dl></section></div><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/jquery.toc.js"></script></div></div></section><footer class="container"><div class="site-footer" role="contentinfo"><div class="copyright left mobile-block"> © 2015 <span title="正义的伙伴">正义的伙伴</span> <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a></div><ul class="site-footer-links right mobile-hidden"><li> <a href="javascript:window.scrollTo(0,0)" >TOP</a></li></ul><a href="https://github.com/AbleASD/AbleASD.github.io" target="_blank" aria-label="view source code"> <span class="mega-octicon octicon-mark-github" title="GitHub"></span> </a><ul class="site-footer-links mobile-hidden"><li> <a href="https://ableasd.github.io/" title="首页" target="">首页</a></li><li> <a href="https://ableasd.github.io/categories/" title="分类" target="">分类</a></li><li> <a href="https://ableasd.github.io/wiki/" title="维基" target="">维基</a></li><li> <a href="https://ableasd.github.io/links/" title="链接" target="">链接</a></li><li> <a href="https://ableasd.github.io/about/" title="关于" target="">关于</a></li><li><a href="https://ableasd.github.io/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></li></ul></div></footer><div class="tools-wrapper"> <a class="gotop" href="#" title="回到顶部"><span class="octicon octicon-arrow-up"></span></a></div><script src="https://cdn.jsdelivr.net/gh/AbleASD/AbleASD.github.io@master/assets/js/geopattern.js"></script> <script> jQuery(document).ready(function($) { $('.geopattern').each(function(){ $(this).geopattern($(this).data('pattern-id')); }); /* hljs.initHighlightingOnLoad(); */ }); </script></body></html>
