@@ -23,7 +23,7 @@ components:
     share:
         enabled: false
         hide-platforms: qq,facebook
-    # 不蒜子访问统计
+    # 不算子访问统计
     busuanzi:
         enabled: false
         start_date: 2020-05-03
