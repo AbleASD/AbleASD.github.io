@@ -195,7 +195,7 @@
     } ,
   
     {
-      "title"    : "工厂模式",
+      "title"    : "MyBatis",
       "category" : "设计模式",
       
       "url"      : "https://ableasd.github.io/2022/03/16/Mybatis/",
