@@ -1,15 +1,23 @@
+---
+layout: post
+title: Navicat 远程连接数据库
+categories: [sql, 环境配置]
+description: Navicat 远程连接数据库
+keywords: sql, 环境配置
+---
+mysql客户端和服务端
+
 ``` shell
 sudo apt install mysql-server
 sudo apt install mysql-client
 
-
-``` mysql 
+设置密码
+``` mysql
 update user 
 set 
     password=password(‘123’) 
 where 
     user=’root’;
-
 flush privileges;
 ```
 
