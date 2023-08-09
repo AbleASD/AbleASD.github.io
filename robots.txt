@@ -1,1 +1,1 @@
-Sitemap: https://ableasd.github.io/pages/AbleASD/sitemap.xml
+Sitemap: https://ableasd.github.io/sitemap.xml
